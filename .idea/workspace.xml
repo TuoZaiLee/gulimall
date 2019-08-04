@@ -2,11 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5c5ef65-235b-4594-b0ea-a853a8932deb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/atguigu/gulimall/gateway/config/GulimallGateWayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/config/OmsCloudConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/config/OmsMyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/config/PmsCloudConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/config/PmsMyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/controller/PmsOssController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-pms/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-admin/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-generator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/guli-generator/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/config/ScheduleConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/controller/ScheduleJobController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/controller/ScheduleJobLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/dao/ScheduleJobDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/dao/ScheduleJobLogDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/entity/ScheduleJobEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/entity/ScheduleJobLogEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/service/ScheduleJobLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/service/ScheduleJobService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/service/impl/ScheduleJobLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/service/impl/ScheduleJobServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/task/ITask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/task/TestTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/utils/ScheduleJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-admin/src/main/java/com/atguigu/modules/job/utils/ScheduleUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-oms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-oms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/GulimallOmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/GulimallOmsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/config/OmsSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/config/OmsSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/config/OmsSwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/config/OmsSwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-oms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-oms/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-pms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-pms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/GulimallPmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/GulimallPmsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/config/PmsSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/config/PmsSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/config/PmsSwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/config/PmsSwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-sms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-sms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-sms/src/main/java/com/atguigu/gulimall/sms/GulimallSmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-sms/src/main/java/com/atguigu/gulimall/sms/GulimallSmsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-sms/src/main/java/com/atguigu/gulimall/sms/config/SmsSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-sms/src/main/java/com/atguigu/gulimall/sms/config/SmsSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-sms/src/main/java/com/atguigu/gulimall/sms/config/SmsSwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-sms/src/main/java/com/atguigu/gulimall/sms/config/SmsSwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-sms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-sms/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ums/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ums/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ums/src/main/java/com/atguigu/gulimall/ums/GulimallUmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ums/src/main/java/com/atguigu/gulimall/ums/GulimallUmsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ums/src/main/java/com/atguigu/gulimall/ums/config/UmsSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ums/src/main/java/com/atguigu/gulimall/ums/config/UmsSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ums/src/main/java/com/atguigu/gulimall/ums/config/UmsSwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ums/src/main/java/com/atguigu/gulimall/ums/config/UmsSwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ums/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ums/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-wms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-wms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-wms/src/main/java/com/atguigu/gulimall/wms/GulimallWmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-wms/src/main/java/com/atguigu/gulimall/wms/GulimallWmsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-wms/src/main/java/com/atguigu/gulimall/wms/config/WmsSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-wms/src/main/java/com/atguigu/gulimall/wms/config/WmsSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-wms/src/main/java/com/atguigu/gulimall/wms/config/WmsSwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-wms/src/main/java/com/atguigu/gulimall/wms/config/WmsSwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-wms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-wms/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,6 +68,7 @@
     <ignored path="$PROJECT_DIR$/gulimall-oms/target/" />
     <ignored path="$PROJECT_DIR$/gulimall-pms/target/" />
     <ignored path="$PROJECT_DIR$/gulimall-ums/target/" />
+    <ignored path="$PROJECT_DIR$/gulimall-gateway/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,72 +81,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulimall-admin/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/gulimall-ums/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulimall-admin/src/main/resources/application-dev.yml">
+        <entry file="file://$PROJECT_DIR$/gulimall-wms/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+            <state>
+              <caret column="55" selection-start-column="55" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulimall-oms/pom.xml">
+        <entry file="file://$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="198">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulimall-pms/pom.xml">
+        <entry file="file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/atguigu/gulimall/gateway/GulimallGatewayApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulimall-sms/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulimall-ums/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulimall-wms/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="154">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulimall-admin/pom.xml">
+        <entry file="file://$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/controller/PmsOssController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1650" />
+            <state relative-caret-position="220">
+              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+            </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulimall-core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/atguigu/gulimall/gateway/config/GulimallGateWayConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulimall-gateway/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulimall-sms/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,11 +175,44 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/gulimall-admin/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/config/PmsSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/atguigu/gulimall/gateway/GulimallGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/config/PmsSecurityConfig.java" />
         <option value="$PROJECT_DIR$/gulimall-oms/pom.xml" />
-        <option value="$PROJECT_DIR$/gulimall-pms/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/com.atguigu.gulimall.oms/atguigu/gulimall/oms/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/gulimall-sms/src/main/java/com/atguigu/gulimall/sms/GulimallSmsApplication.java" />
         <option value="$PROJECT_DIR$/gulimall-sms/pom.xml" />
-        <option value="$PROJECT_DIR$/gulimall-ums/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-wms/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-ums/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-sms/src/main/java/com/atguigu/gulimall/sms/config/PmsSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/gulimall-ums/src/main/java/com/atguigu/gulimall/ums/config/PmsSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/gulimall-wms/src/main/java/com/atguigu/gulimall/wms/config/PmsSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/gulimall-ums/src/main/java/com/atguigu/gulimall/ums/GulimallUmsApplication.java" />
+        <option value="$PROJECT_DIR$/gulimall-wms/src/main/java/com/atguigu/gulimall/wms/GulimallWmsApplication.java" />
+        <option value="$PROJECT_DIR$/guli-generator/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/guli-generator/src/main/resources/generator.properties" />
+        <option value="$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/config/PmsSwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/config/OmsSwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/gulimall-sms/src/main/java/com/atguigu/gulimall/sms/config/SmsSwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/gulimall-ums/src/main/java/com/atguigu/gulimall/ums/config/UmsSwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/gulimall-wms/src/main/java/com/atguigu/gulimall/wms/config/WmsSwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/gulimall-pms/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-pms/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/GulimallPmsApplication.java" />
+        <option value="$PROJECT_DIR$/gulimall-pms/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/gulimall-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/config/PmsCloudConfig.java" />
+        <option value="$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/config/OmsCloudConfig.java" />
+        <option value="$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/GulimallOmsApplication.java" />
+        <option value="$PROJECT_DIR$/gulimall-oms/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gulimall-sms/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gulimall-ums/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gulimall-wms/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gulimall-gateway/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gulimall-core/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/controller/PmsOssController.java" />
       </list>
     </option>
   </component>
@@ -128,7 +231,12 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gulimall-pms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -138,13 +246,15 @@
     <option name="width" value="1400" />
     <option name="height" value="992" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,27 +265,89 @@
             <path>
               <item name="gulimall" type="b2602c69:ProjectViewProjectNode" />
               <item name="gulimall" type="462c0819:PsiDirectoryNode" />
-              <item name="gulimall-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="gulimall-core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gulimall" type="b2602c69:ProjectViewProjectNode" />
               <item name="gulimall" type="462c0819:PsiDirectoryNode" />
-              <item name="gulimall-ums" type="462c0819:PsiDirectoryNode" />
+              <item name="gulimall-pms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gulimall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gulimall" type="462c0819:PsiDirectoryNode" />
+              <item name="gulimall-pms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gulimall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gulimall" type="462c0819:PsiDirectoryNode" />
+              <item name="gulimall-pms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gulimall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gulimall" type="462c0819:PsiDirectoryNode" />
+              <item name="gulimall-pms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gulimall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gulimall" type="462c0819:PsiDirectoryNode" />
+              <item name="gulimall-pms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gulimall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gulimall" type="462c0819:PsiDirectoryNode" />
+              <item name="gulimall-pms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pms" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/controller" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.gulimall.wms.config" />
+      <recent name="com.atguigu.gulimall.ums.config" />
+      <recent name="com.atguigu.gulimall.sms.config" />
+      <recent name="com.atguigu.gulimall.oms.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA Project\gulimall\gulimall-pms\src\main\java\com\atguigu\gulimall\pms\controller" />
+      <recent name="E:\IDEA Project\gulimall\gulimall-gateway\src\main\java\com\atguigu\gulimall\gateway" />
+      <recent name="E:\IDEA Project\gulimall\gulimall-gateway\src\main\resources" />
+      <recent name="E:\IDEA Project\gulimall\gulimall-oms\src\main\java\com\atguigu\gulimall\oms\config" />
+      <recent name="E:\IDEA Project\gulimall\gulimall-pms\src\main\java\com\atguigu\gulimall\pms\config" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -193,11 +365,19 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.22617744" />
   </component>
-  <component name="RunManager" selected="Spring Boot.GmallAdminMainApplication">
+  <component name="RunManager" selected="Spring Boot.GulimallPmsApplication">
     <configuration name="GmallAdminMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gulimall-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.GmallAdminMainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.gateway.GulimallGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,7 +391,7 @@
     </configuration>
     <configuration name="GulimallPmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gulimall-pms" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimallpms.GulimallPmsApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.pms.GulimallPmsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,18 +438,26 @@
       <workItem from="1564662040313" duration="1877000" />
       <workItem from="1564664439704" duration="430000" />
       <workItem from="1564664896807" duration="1377000" />
-      <workItem from="1564677225318" duration="837000" />
+      <workItem from="1564677225318" duration="6190000" />
+      <workItem from="1564706637553" duration="2757000" />
+      <workItem from="1564728578037" duration="599000" />
+      <workItem from="1564732497469" duration="8105000" />
+      <workItem from="1564793617101" duration="244000" />
+      <workItem from="1564818669685" duration="1843000" />
+      <workItem from="1564830458991" duration="5800000" />
+      <workItem from="1564936036904" duration="2301000" />
+      <workItem from="1564938964988" duration="216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4521000" />
+    <option name="totallyTimeSpent" value="31828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2604726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2508056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -278,26 +466,27 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32918552" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32918552" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3280543" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32918552" />
       <window_info anchor="bottom" id="MyBatis Log" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32918552" />
       <window_info anchor="bottom" id="Tail" order="15" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.32918552" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.9558824" />
+      <window_info anchor="bottom" id="Messages" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.198174" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.18796992" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -311,62 +500,297 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/GulimallPmsApplication.java" />
-    <entry file="file://$PROJECT_DIR$/gulimall-admin/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/gulimall-sms/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulimall-admin/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/guli-generator/src/main/java/com/atguigu/RenrenApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        <state relative-caret-position="132">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulimall-oms/pom.xml">
+    <entry file="file://$PROJECT_DIR$/gulimall-sms/src/main/resources/mapper/sms/CouponDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-sms/src/main/java/com/atguigu/gulimall/sms/controller/CouponController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="-1133" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-pms/src/main/resources/mapper/pms/AttrAttrgroupRelationDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/config/PmsSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulimall-pms/pom.xml">
+    <entry file="file://$PROJECT_DIR$/gulimall-sms/src/main/java/com/atguigu/gulimall/sms/config/SmsSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-ums/src/main/java/com/atguigu/gulimall/ums/config/UmsSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-wms/src/main/java/com/atguigu/gulimall/wms/config/WmsSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-ums/src/main/java/com/atguigu/gulimall/ums/controller/MemberController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-ums/src/main/java/com/atguigu/gulimall/ums/GulimallUmsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="110">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-ums/src/main/resources/mapper/ums/MemberDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-generator/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-generator/src/main/resources/generator.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-sms/src/main/java/com/atguigu/gulimall/sms/GulimallSmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-wms/src/main/java/com/atguigu/gulimall/wms/controller/ShAreaController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-wms/src/main/resources/mapper/wms/ShAreaDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-wms/src/main/java/com/atguigu/gulimall/wms/GulimallWmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-535" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/config/OmsSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulimall-sms/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="308">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulimall-ums/pom.xml">
+    <entry file="file://$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/config/OmsSwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="220">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulimall-wms/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="308">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-ums/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-pms/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-pms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-wms/src/main/java/com/atguigu/gulimall/wms/config/WmsSwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-ums/src/main/java/com/atguigu/gulimall/ums/config/UmsSwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-sms/src/main/java/com/atguigu/gulimall/sms/config/SmsSwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-pms/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/config/PmsSwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/config/PmsMyBatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/config/PmsCloudConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulimall-admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1650" />
+        <state relative-caret-position="-4422" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/config/OmsCloudConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/config/OmsMyBatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/GulimallPmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-oms/src/main/java/com/atguigu/gulimall/oms/GulimallOmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-oms/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-oms/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-ums/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-wms/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="55" selection-start-column="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/atguigu/gulimall/gateway/config/GulimallGateWayConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-gateway/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-sms/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-gateway/src/main/java/com/atguigu/gulimall/gateway/GulimallGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulimall-pms/src/main/java/com/atguigu/gulimall/pms/controller/PmsOssController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        </state>
       </provider>
     </entry>
   </component>

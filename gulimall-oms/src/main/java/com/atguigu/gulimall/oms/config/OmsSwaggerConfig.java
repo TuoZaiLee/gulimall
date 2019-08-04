@@ -1,8 +1,7 @@
-package com.atguigu.gulimall.pms.config;
+package com.atguigu.gulimall.oms.config;
 
 
 import io.swagger.annotations.Api;
-import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -12,17 +11,18 @@ import springfox.documentation.service.ApiInfo;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
 @Configuration
 @EnableSwagger2
-public class PmsSwaggerConfig {
+public class OmsSwaggerConfig {
 
-    @Bean("商品平台")
+    @Bean("订单系统")
     public Docket userApis() {
         return new Docket(DocumentationType.SWAGGER_2)
-                .groupName("商品平台")
+                .groupName("订单系统")
                 .select()
                 .apis(RequestHandlerSelectors.withClassAnnotation(Api.class))
-                .paths(PathSelectors.regex("/pms.*"))
+                .paths(PathSelectors.regex("/oms.*"))
                 .build()
                 .apiInfo(apiInfo())
                 .enable(true);
@@ -30,8 +30,8 @@ public class PmsSwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("谷粒商城-商品平台接口文档")
-                .description("提供商品平台的文档")
+                .title("谷粒商城-订单系统接口文档")
+                .description("提供订单系统的文档")
                 .termsOfServiceUrl("http://www.atguigu.com/")
                 .version("1.0")
                 .build();

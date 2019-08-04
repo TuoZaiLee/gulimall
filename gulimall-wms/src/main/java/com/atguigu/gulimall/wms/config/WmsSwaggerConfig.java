@@ -1,4 +1,4 @@
-package com.atguigu.gulimall.sms.config;
+package com.atguigu.gulimall.wms.config;
 
 
 import io.swagger.annotations.Api;
@@ -14,15 +14,15 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
 @EnableSwagger2
-public class SmsSwaggerConfig {
+public class WmsSwaggerConfig {
 
-    @Bean("营销优惠系统")
+    @Bean("库存管理系统")
     public Docket userApis() {
         return new Docket(DocumentationType.SWAGGER_2)
-                .groupName("营销优惠系统")
+                .groupName("库存管理系统")
                 .select()
                 .apis(RequestHandlerSelectors.withClassAnnotation(Api.class))
-                .paths(PathSelectors.regex("/sms.*"))
+                .paths(PathSelectors.regex("/wms.*"))
                 .build()
                 .apiInfo(apiInfo())
                 .enable(true);
@@ -30,8 +30,8 @@ public class SmsSwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("谷粒商城-营销优惠系统接口文档")
-                .description("提供营销优惠系统的文档")
+                .title("谷粒商城-库存管理系统接口文档")
+                .description("提供库存管理系统的文档")
                 .termsOfServiceUrl("http://www.atguigu.com/")
                 .version("1.0")
                 .build();
